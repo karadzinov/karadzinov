@@ -23,6 +23,75 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Generate year heatmap
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api graphql -f query='query { user(login:"karadzinov") { contributionsCollection { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }' -q '.data.user.contributionsCollection.contributionCalendar' > calendar.json
+          python3 - <<'PY'
+          import json, html
+          import datetime
+
+          data = json.load(open('calendar.json'))
+
+          SCALE_LIGHT = ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39']
+          SCALE_DARK = ['#161b22', '#006d32', '#00ac47', '#3fb950', '#57d965']
+          MAX = max(d['contributionCount'] for w in data['weeks'] for d in w['contributionDays']) or 1
+
+          def color_idx(c):
+              if c == 0: return 0
+              if c <= MAX * 0.25: return 1
+              if c <= MAX * 0.5: return 2
+              if c <= MAX * 0.75: return 3
+              return 4
+
+          CELL, GAP, STEP = 11, 3, 14
+          LEFT, TOP = 46, 22
+
+          def build(dark):
+              scale = SCALE_DARK if dark else SCALE_LIGHT
+              label = 'c9d1d9' if dark else '24292f'
+              muted = '888888'
+              months = {}
+              prev_month = None
+              for wi, week in enumerate(data['weeks']):
+                  days = week['contributionDays']
+                  if days:
+                      date = datetime.date.fromisoformat(days[0]['date'])
+                      if prev_month != date.month:
+                          months[wi] = date.strftime('%b')
+                          prev_month = date.month
+              out = []
+              W = LEFT + len(data['weeks']) * STEP + 20
+              H = TOP + 7 * STEP + 40
+              out.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="ui-monospace,Menlo,monospace" font-size="10">')
+              for wi, m in months.items():
+                  out.append(f'<text x="{LEFT + wi * STEP}" y="14" fill="{label}">{m}</text>')
+              for yi, dn in enumerate(['', 'Mon', '', 'Wed', '', 'Fri', '']):
+                  if dn:
+                      out.append(f'<text x="{LEFT - 6}" y="{TOP + yi * STEP + 9}" fill="{muted}" text-anchor="end">{dn}</text>')
+              for wi, week in enumerate(data['weeks']):
+                  for yi, d in enumerate(week['contributionDays']):
+                      cx, cy = LEFT + wi * STEP, TOP + yi * STEP
+                      c = scale[color_idx(d['contributionCount'])]
+                      tip = f'{d["contributionCount"]} contributions on {d["date"]}'
+                      out.append(f'<g><title>{html.escape(tip)}</title><rect x="{cx}" y="{cy}" width="{CELL}" height="{CELL}" rx="2.5" fill="{c}"/></g>')
+              legend_x = LEFT + len(data['weeks']) * STEP - len(SCALE_LIGHT) * STEP - 4
+              ly = TOP + 7 * STEP + 18
+              out.append(f'<text x="{legend_x - 8}" y="{ly + 9.5}" fill="{muted}" text-anchor="end">more</text>')
+              for i, c in enumerate(scale):
+                  out.append(f'<rect x="{legend_x + i * STEP}" y="{ly}" width="{CELL}" height="{CELL}" rx="2.5" fill="{c}"/>')
+              out.append(f'<text x="{legend_x + len(scale) * STEP + 6}" y="{ly + 9.5}" fill="{muted}">less</text>')
+              out.append('</svg>')
+              return '\n'.join(out)
+
+          with open('dist/a-year-of-work.svg', 'w') as f:
+              f.write(build(False))
+          with open('dist/a-year-of-work-dark.svg', 'w') as f:
+              f.write(build(True))
+          print('heatmap written')
+          PY
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
