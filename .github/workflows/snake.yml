@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Generate snake SVGs
-        uses: Platane/snk/svg-only-action@v3
+        uses: Platane/snk/svg-only@v3.5
         with:
           github_user_name: karadzinov
           outputs: |
