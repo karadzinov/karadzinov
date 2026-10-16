@@ -59,6 +59,16 @@ final class MartinKaradjinov extends Developer
 
 <img src="https://streak-stats.demolab.com/?user=karadzinov&hide_border=true&background=00000000&fire=FF6E97&ring=7f5af0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=2cb67d&sideLabels=888888&dates=888888" width="70%" alt="Streak stats" />
 
+<h2>🏆 GitHub trophies</h2>
+
+<img src="https://github-profile-trophy.vercel.app/?username=karadzinov&theme=transparent&no-frame=true&no-bg=true&column=4" width="98%" alt="GitHub trophies" />
+
+<h2>📈 A year of work</h2>
+
+<h3>🔥 7,168 contributions in the last year — and counting</h3>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=karadzinov&bg_color=00000000&color=c9d1d9&line=7f5af0&point=2cb67d&area=true&hide_border=true&custom_title=7%2C168%20contributions%20in%20the%20last%20year&height=280" width="100%" alt="Contribution activity over the last year" />
+
 <h2>🌐 Find me</h2>
 
 &nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/martin-karadzinov-3a8087b1) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/karadzinov) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/martin.karadzinov) [![X](https://img.shields.io/badge/X-black?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mctiggaz) [![TikTok](https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@pingdevs) [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@pingdevs) [![Email](https://img.shields.io/badge/Email-martin%40myhost.mk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martin@myhost.mk)
