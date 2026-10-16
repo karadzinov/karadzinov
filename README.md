@@ -43,7 +43,7 @@ final class MartinKaradjinov extends Developer
 
 <h2>🛠️ The toolbox</h2>
 
-<img src="https://skillicons.dev/icons?i=php,laravel,react,ts,js,nodejs,mysql,redis,docker,nginx,git,tailwind,vite,python,swift&perline=5" width="98%" alt="Languages, frameworks and tools I work with" />
+<img src="https://skillicons.dev/icons?i=php,laravel,react,ts,js,nodejs,mysql,redis,docker,nginx,git,tailwind,vite,python,swift&perline=5" width="70%" alt="Languages, frameworks and tools I work with" />
 
 <h2>⭐ Featured projects</h2>
 
