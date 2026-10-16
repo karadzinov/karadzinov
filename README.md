@@ -1,24 +1,68 @@
-# 💫 About Me:
-🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7f5af0,100:2cb67d&height=200&section=header&text=Martin%20Karadzinov&fontSize=42&fontColor=ffffff&desc=Senior%20Full-Stack%20Developer%20·%20Laravel%20·%20React%20·%20APIs&descSize=18&descAlignY=68" width="100%" />
 
+<h2>🔭 About me</h2>
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/karadzinov) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/martin.karadzinov) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/martin-karadzinov-3a8087b1) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@pingdevs) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/mctiggaz) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@pingdevs) 
+```php
+<?php
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=flat&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white) ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=flat&logo=yaml&logoColor=151515) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=flat&logo=digitalOcean&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=flat&logo=github&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Linode](https://img.shields.io/badge/linode-00A95C?style=flat&logo=linode&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![Code-Igniter](https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=flat&logo=codeIgniter&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat&logo=socket.io&badgeColor=010101) ![Symfony](https://img.shields.io/badge/symfony-%23000000.svg?style=flat&logo=symfony&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=flat&logo=bitbucket&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=flat&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=flat&logo=elasticsearch) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=Twilio&logoColor=white) ![Vagrant](https://img.shields.io/badge/vagrant-%231563FF.svg?style=flat&logo=vagrant&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=karadzinov&theme=dracula&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=karadzinov&theme=dracula&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=karadzinov&theme=dracula&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+declare(strict_types=1);
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+final class MartinKaradjinov extends Developer
+{
+    public const ROLE    = 'Senior Full-Stack Developer';
+    public const COMPANY = 'PingDevs';
+    public const STACK   = ['Laravel', 'React', 'TypeScript', 'MySQL', 'Docker'];
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=karadzinov&limit=5&theme=dark&combine_all_yearly_contributions=true)
+    public function status(): string
+    {
+        return '🚀 Building booking systems, fleet APIs & web platforms';
+    }
 
----
-[![](https://visitcount.itsvg.in/api?id=karadzinov&icon=0&color=6)](https://visitcount.itsvg.in)
+    public function currentlyShipping(): array
+    {
+        return [
+            '🛠️  Fleet & logistics APIs at scale',
+            '💻  Booking & reservation platforms',
+            '🤖  AI-powered developer tooling (Laravel + ChatGPT)',
+        ];
+    }
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+    public function lookingFor(): string
+    {
+        return '💰 Open to freelance & contract work';
+    }
+}
+```
+
+<h2>🛠️ What I work with</h2>
+
+**Backend:** ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) ![REST API](https://img.shields.io/badge/REST%20APIs-00B5D8?style=flat-square&logo=api&logoColor=white)
+
+**Frontend:** ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Inertia](https://img.shields.io/badge/Inertia.js-9553E9?style=flat-square)
+
+**Infra & tools:** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+
+<h2>⭐ Featured projects</h2>
+
+| Project | What it is |
+|---|---|
+| [![ApiGenerator](https://img.shields.io/badge/ApiGenerator-⭐4%20•%20PHP-3178C6?style=flat-square)](https://github.com/karadzinov/ApiGenerator) | Scaffolding & API generation tooling for PHP/Laravel projects |
+| [![laravel-devcopilot](https://img.shields.io/badge/laravel--devcopilot-⭐2%20•%20PHP-FF2D20?style=flat-square)](https://github.com/karadzinov/laravel-devcopilot) | ChatGPT inside your Artisan CLI — explains code, generates ideas, never leaves the terminal |
+| [![chatgpt-site-assistant](https://img.shields.io/badge/chatgpt--site--assistant-⭐1%20•%20PHP-777BB4?style=flat-square)](https://github.com/karadzinov/chatgpt-site-assistant) | Laravel package that scans site routes and wires them up as context for a ChatGPT assistant |
+| [![netbanking](https://img.shields.io/badge/netbanking-•%20Swift-F05138?style=flat-square)](https://github.com/karadzinov/netbanking) | Native macOS signer replacing a Windows-only Java applet for business e-banking |
+| [![dg · Dragi Gosti](https://img.shields.io/badge/Dragi%20Gosti-⭐2%20•%20Web-2cb67d?style=flat-square)](https://github.com/karadzinov/dg) | Public platform — frontend & back end |
+
+<h2>📊 GitHub stats</h2>
+
+<img src="https://github-readme-stats.vercel.app/api?username=karadzinov&show_icons=true&hide_border=true&bg_color=00000000&title_color=7f5af0&icon_color=2cb67d&text_color=c9d1d9" width="49%" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karadzinov&layout=compact&hide_border=true&bg_color=00000000&title_color=7f5af0&text_color=c9d1d9" width="49%" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com/?user=karadzinov&hide_border=true&background=00000000&fire=FF6E97&ring=7f5af0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=2cb67d&sideLabels=888888&dates=888888" width="70%" alt="Streak stats" />
+
+<h2>🌐 Find me</h2>
+
+&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/martin-karadzinov-3a8087b1) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/karadzinov) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/martin.karadzinov) [![X](https://img.shields.io/badge/X-black?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mctiggaz) [![TikTok](https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@pingdevs) [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@pingdevs) [![Email](https://img.shields.io/badge/Email-martin%40myhost.mk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martin@myhost.mk)
+
+<br />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2cb67d,100:7f5af0&height=110&section=footer" width="100%" />
