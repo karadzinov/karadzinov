@@ -57,11 +57,13 @@ final class MartinKaradjinov extends Developer
 
 <h2>📈 A year of work</h2>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=karadzinov&bg_color=00000000&color=c9d1d9&line=7f5af0&point=2cb67d&area=true&hide_border=true&custom_title=7%2C168%20contributions%20in%20the%20last%20year&height=280" width="100%" alt="Contribution activity over the last year" />
+<h3>7,168 contributions in the last year — and counting</h3>
 
-<h2>🏆 GitHub trophies</h2>
-
-<img src="https://github-profile-trophy.vercel.app/?username=karadzinov&theme=transparent&no-frame=true&no-bg=true&column=4" width="98%" alt="GitHub trophies" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/karadzinov/karadzinov/output/a-year-of-work-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karadzinov/karadzinov/output/a-year-of-work.svg" />
+  <img alt="Contribution activity over the last year" src="https://raw.githubusercontent.com/karadzinov/karadzinov/output/a-year-of-work.svg" />
+</picture>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
