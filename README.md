@@ -52,12 +52,9 @@ final class MartinKaradjinov extends Developer
 | [![netbanking](https://img.shields.io/badge/netbanking-•%20Swift-F05138?style=flat-square)](https://github.com/karadzinov/netbanking) | Native macOS signer replacing a Windows-only Java applet for business e-banking |
 | [![dg · Dragi Gosti](https://img.shields.io/badge/Dragi%20Gosti-⭐2%20•%20Web-2cb67d?style=flat-square)](https://github.com/karadzinov/dg) | Public platform — frontend & back end |
 
-<h2>📊 GitHub stats</h2>
+<h2>🧰 The toolbox</h2>
 
-<img src="https://github-readme-stats.vercel.app/api?username=karadzinov&show_icons=true&hide_border=true&bg_color=00000000&title_color=7f5af0&icon_color=2cb67d&text_color=c9d1d9" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karadzinov&layout=compact&hide_border=true&bg_color=00000000&title_color=7f5af0&text_color=c9d1d9" width="49%" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com/?user=karadzinov&hide_border=true&background=00000000&fire=FF6E97&ring=7f5af0&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=2cb67d&sideLabels=888888&dates=888888" width="70%" alt="Streak stats" />
+<img src="https://skillicons.dev/icons?i=php,laravel,react,ts,js,nodejs,mysql,redis,docker,nginx,git,tailwind,vite,python,swift&perline=5" width="98%" alt="Languages, frameworks and tools I work with" />
 
 <h2>🏆 GitHub trophies</h2>
 
